@@ -1,0 +1,1269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disney+Hotstar</title>
+    <link rel="stylesheet" href="style.css"/>
+    <!--FontAwesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="Assets/images/site-icon.ico"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body>
+<!--Navigation bar-->
+    <nav class="navbar">
+    <img class="logo" src="Assets/images/logo.png" alt="Brand Logo">
+    <ul class="nav-links">
+        <li class="nav-item"><a href="#">TV</a></li>
+        <li class="nav-item"><a href="#">Movies</a></li>
+        <li class="nav-item"><a href="#">Sports</a></li>
+        <li class="nav-item"><a href="#">Premium</a></li>
+    </ul>
+    <div class="right-container">
+        <input type="search" class="search-box" placeholder="Search"/>
+        <button class="sub-btn">Subscribe</button>
+        <a href="#" class="login">Login</a>
+    </div>
+</nav>
+<!--Banner section-->
+<div class="carousel-container">
+    <div class="caraousel">
+        <!--<div class="slider">
+            <div class="slide-content">
+                <h1 class="movie-title">Loki</h1>
+                <p class="movie-des">A young boy who possesses enhanced powers and abilities.</p>
+            </div>
+            <img src="Assets/images/slider 1.PNG" alt="Loki The Movie"/>
+        </div>-->
+    </div>
+</div>
+<div class="video-card-container">
+    <div class="video-card">
+        <img src="Assets/images/disney.PNG" alt="" class="video-card-image"/>
+        <video src="Assets/videos/disney.mp4" muted loop autoplay class="card-video"></video>
+    </div>
+    <div class="video-card">
+        <img src="Assets/images/pixar.PNG" alt="" class="video-card-image"/>
+        <video src="Assets/videos/pixar.mp4" muted loop class="card-video"></video>
+    </div>
+    <div class="video-card">
+        <img src="Assets/images/marvel.PNG" alt="" class="video-card-image"/>
+        <video src="Assets/videos/marvel.mp4" muted loop class="card-video"></video>
+    </div>
+    <div class="video-card">
+        <img src="Assets/images/star-wars.PNG" alt="" class="video-card-image"/>
+        <video src="Assets/videos/star-war.mp4" muted loop class="card-video"></video>
+    </div>
+    <div class="video-card">
+        <img src="Assets/images/geographic.PNG" alt="" class="video-card-image"/>
+        <video src="Assets/videos/geographic.mp4" muted loop class="card-video"></video>
+    </div>
+</div>
+
+<!--Recommended movies-->
+<section class="main-container">
+<h1 class="title">Recommended For You</h1>
+<div class="movies-list">
+    <button class="pre-btn" title="Previous">
+        <img src="Assets/images/pre.png" alt="Previous">
+    </button>
+    <button class="nxt-btn" title="Next">
+        <img src="Assets/images/nxt.png" alt="Next">
+    </button>
+    <section class="card-container">
+        <div class="card">
+        <img src="Assets/images/poster 1.png" alt="" class="card-img">
+            <div class="card-body">
+            <h2 class="card-title">Loki</h2>
+            <h6 class="card-des">God of Mischief after “Avengers: Endgame.”</h6>
+            <button class="watchlist-btn">Add to watchlist</button>
+            </div>
+        </div>
+        <!-- Additional cards -->
+        <div class="card">
+            <img src="Assets/images/poster 2.png" alt="" class="card-img">
+            <div class="card-body">
+                <h2 class="card-title">Mulan</h2>
+                <h6 class="card-des">Mulan must harness and embrace her true potential.</h6>
+                <button class="watchlist-btn">Add to watchlist</button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="Assets/images/poster 3.png" alt="" class="card-img">
+            <div class="card-body">
+                <h2 class="card-title" style="font-size: 13px;">The Falcon and the Winter Soldier</h2>
+                <h6 class="card-des">Sam Wilson and Bucky Barnes team up</h6>
+                <button class="watchlist-btn">Add to watchlist</button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="Assets/images/poster 4.png" alt="" class="card-img">
+            <div class="card-body">
+                <h2 class="card-title" style="font-size:13.5px;">Avengers: Endgame</h2>
+                <h6 class="card-des">After devastating events of the Infinity War</h6>
+                <button class="watchlist-btn">Add to watchlist</button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="Assets/images/poster 5.png" alt="" class="card-img">
+            <div class="card-body">
+                <h2 class="card-title">Thor Ragnarok</h2>
+                <h6 class="card-des">Thor must escape the other side of the universe</h6>
+                <button class="watchlist-btn">Add to watchlist</button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="Assets/images/poster 6.png" alt="" class="card-img">
+            <div class="card-body">
+                <h2 class="card-title">Avengers</h2>
+                <h6 class="card-des">Brink of disaster by launching the Avengers initiative.</h6>
+                <button class="watchlist-btn">Add to watchlist</button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="Assets/images/poster 7.png" alt="" class="card-img">
+            <div class="card-body">
+                <h2 class="card-title" style="font-size:14px;">Pirates of Caribean</h2>
+                <h6 class="card-des">Captain Jack Sparrow senses the winds of ill-fortune</h6>
+                <button class="watchlist-btn">Add to watchlist</button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="Assets/images/poster 8.png" alt="" class="card-img">
+            <div class="card-body">
+                <h2 class="card-title">Soul</h2>
+                <h6 class="card-des">Joe is transported to The Great Before, & must find his way back</h6>
+                <button class="watchlist-btn">Add to watchlist</button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="Assets/images/poster 11.png" alt="" class="card-img">
+            <div class="card-body">
+                <h2 class="card-title">Ford v Ferrari</h2>
+                <h6 class="card-des">Caroll Shelby & Ken Miles battle against the odds to build a race car</h6>
+                <button class="watchlist-btn">Add to watchlist</button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="Assets/images/poster 10.png" alt="" class="card-img">
+            <div class="card-body">
+                <h2 class="card-title">Luca</h2>
+                <h6 class="card-des">Story is about a young boy experiencing an unforgettable summer</h6>
+                <button class="watchlist-btn">Add to watchlist</button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="Assets/images/poster 9.png" alt="" class="card-img">
+            <div class="card-body">
+                <h2 class="card-title" style="font-size: 11px">Raya & the Last Dragon</h2>
+                <h6 class="card-des">Raya, a fallen princess, must track down the legendary last dragon</h6>
+                <button class="watchlist-btn">Add to watchlist</button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="Assets/images/poster 12.png" alt="" class="card-img">
+            <div class="card-body">
+                <h2 class="card-title" style="font-size: 13px;">X-Men:Dark Phoenix</h2>
+                <h6 class="card-des">The X-Men must find a way to save her soul</h6>
+                <button class="watchlist-btn">Add to watchlist</button>
+            </div>
+        </div>
+    </section>
+</div>
+</section>
+<!--Latest releases-->
+<section class="main-container">
+<h1 class="title">Latest Releases</h1>
+<div class="movies-list">
+    <button class="pre-btn" title="Previous">
+        <img src="Assets/images/pre.png" alt="Previous">
+    </button>
+    <button class="nxt-btn" title="Next">
+        <img src="Assets/images/nxt.png" alt="Next">
+    </button>
+    <section class="card-container">
+        <div class="card">
+        <img src="Assets/images/lr1.webp" alt="" class="card-img">
+            <div class="card-body">
+            <h2 class="card-title"></h2>
+            <h6 class="card-des">Following her childhood crush, Malavika comes to the Perilloor village</h6>
+            <button class="watchlist-btn">Add to watchlist</button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="Assets/images/lr2.webp" alt="" class="card-img">
+            <div class="card-body">
+                <h2 class="card-title"></h2>
+                <h6 class="card-des">Travel writer Jeff Jenkins criss-crosses the globe</h6>
+                <button class="watchlist-btn">Add to watchlist</button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="Assets/images/lr3.webp" alt="" class="card-img">
+            <div class="card-body">
+                <h2 class="card-title">Parking</h2>
+                <h6 class="card-des">A clash over a shared space transforms two men</h6>
+                <button class="watchlist-btn">Add to watchlist</button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="Assets/images/lr4.webp" alt="" class="card-img">
+            <div class="card-body">
+                <h2 class="card-title">12TH Fail</h2>
+                <h6 class="card-des">Every fight begins with a failure!</h6>
+                <button class="watchlist-btn">Add to watchlist</button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="Assets/images/lr5.webp" alt="" class="card-img">
+            <div class="card-body">
+                <h2 class="card-title"></h2>
+                <h6 class="card-des" style="margin: 0px 0;">Along with Gaurav Kapur, legends Yuvraj Singh and Gautam Gambhir, Join in the engaging debate!</h6>
+                <button class="watchlist-btn">Add to watchlist</button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="Assets/images/lr6.webp" alt="" class="card-img">
+            <div class="card-body">
+                <h2 class="card-title" style="font-size: 14px;">Believing Is Magic</h2>
+                <h6 class="card-des">Alongside host Sahil Khattar, emerging cricket stars...</h6>
+                <button class="watchlist-btn">Add to watchlist</button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="Assets/images/lr7.webp" alt="" class="card-img">
+            <div class="card-body">
+                <h2 class="card-title">Falimy</h2>
+                <h6 class="card-des">To fulfill the patriarch's wish, trip to Varanasi</h6>
+                <button class="watchlist-btn">Add to watchlist</button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="Assets/images/lr8.webp" alt="" class="card-img">
+            <div class="card-body">
+                <h2 class="card-title">The Freelancer</h2>
+                <h6 class="card-des">A single misplaced word could mean death</h6>
+                <button class="watchlist-btn">Add to watchlist</button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="Assets/images/lr9.webp" alt="" class="card-img">
+            <div class="card-body">
+                <h2 class="card-title">Dance + Pro</h2>
+                <h6 class="card-des">With high-end tech and innovative dance acts</h6>
+                <button class="watchlist-btn">Add to watchlist</button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="Assets/images/lr10.webp" alt="" class="card-img">
+            <div class="card-body">
+                <h2 class="card-title">Movie Name</h2>
+                <h6 class="card-des">Lorem ipsum dolor sit emmet.</h6>
+                <button class="watchlist-btn">Add to watchlist</button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="Assets/images/lr11.webp" alt="" class="card-img">
+            <div class="card-body">
+                <h2 class="card-title">Movie Name</h2>
+                <h6 class="card-des">Lorem ipsum dolor sit emmet.</h6>
+                <button class="watchlist-btn">Add to watchlist</button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="Assets/images/lr12.webp" alt="" class="card-img">
+            <div class="card-body">
+                <h2 class="card-title">Movie Name</h2>
+                <h6 class="card-des">Lorem ipsum dolor sit emmet.</h6>
+                <button class="watchlist-btn">Add to watchlist</button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="Assets/images/lr13.webp" alt="" class="card-img">
+            <div class="card-body">
+                <h2 class="card-title">Movie Name</h2>
+                <h6 class="card-des">Lorem ipsum dolor sit emmet.</h6>
+                <button class="watchlist-btn">Add to watchlist</button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="Assets/images/lr14.webp" alt="" class="card-img">
+            <div class="card-body">
+                <h2 class="card-title">Movie Name</h2>
+                <h6 class="card-des">Lorem ipsum dolor sit emmet.</h6>
+                <button class="watchlist-btn">Add to watchlist</button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="Assets/images/lr15.webp" alt="" class="card-img">
+            <div class="card-body">
+                <h2 class="card-title">Movie Name</h2>
+                <h6 class="card-des">Lorem ipsum dolor sit emmet.</h6>
+                <button class="watchlist-btn">Add to watchlist</button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="Assets/images/lr16.webp" alt="" class="card-img">
+            <div class="card-body">
+                <h2 class="card-title">Movie Name</h2>
+                <h6 class="card-des">Lorem ipsum dolor sit emmet.</h6>
+                <button class="watchlist-btn">Add to watchlist</button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="Assets/images/lr17.webp" alt="" class="card-img">
+            <div class="card-body">
+                <h2 class="card-title">Movie Name</h2>
+                <h6 class="card-des">Lorem ipsum dolor sit emmet.</h6>
+                <button class="watchlist-btn">Add to watchlist</button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="Assets/images/lr18.webp" alt="" class="card-img">
+            <div class="card-body">
+                <h2 class="card-title">Movie Name</h2>
+                <h6 class="card-des">Lorem ipsum dolor sit emmet.</h6>
+                <button class="watchlist-btn">Add to watchlist</button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="Assets/images/lr19.webp" alt="" class="card-img">
+            <div class="card-body">
+                <h2 class="card-title">Movie Name</h2>
+                <h6 class="card-des">Lorem ipsum dolor sit emmet.</h6>
+                <button class="watchlist-btn">Add to watchlist</button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="Assets/images/lr20.webp" alt="" class="card-img">
+            <div class="card-body">
+                <h2 class="card-title">Movie Name</h2>
+                <h6 class="card-des">Lorem ipsum dolor sit emmet.</h6>
+                <button class="watchlist-btn">Add to watchlist</button>
+            </div>
+        </div>
+    </section>
+</div>
+</section>
+<!--Action Movies-->
+<section class="main-container">
+<h1 class="title">Action Movies</h1>
+<div class="movies-list">
+    <button class="pre-btn" title="Previous">
+        <img src="Assets/images/pre.png" alt="Previous">
+    </button>
+    <button class="nxt-btn" title="Next">
+        <img src="Assets/images/nxt.png" alt="Next">
+    </button>
+    <section class="card-container">
+        <div class="card">
+        <img src="Assets/images/am1.webp" alt="" class="card-img">
+            <div class="card-body">
+            <h2 class="card-title">Movie Name</h2>
+            <h6 class="card-des">Lorem ipsum dolor sit emmet.</h6>
+            <button class="watchlist-btn">Add to watchlist</button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="Assets/images/am2.webp" alt="" class="card-img">
+            <div class="card-body">
+                <h2 class="card-title">Movie Name</h2>
+                <h6 class="card-des">Lorem ipsum dolor sit emmet.</h6>
+                <button class="watchlist-btn">Add to watchlist</button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="Assets/images/am3.webp" alt="" class="card-img">
+            <div class="card-body">
+                <h2 class="card-title">Movie Name</h2>
+                <h6 class="card-des">Lorem ipsum dolor sit emmet.</h6>
+                <button class="watchlist-btn">Add to watchlist</button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="Assets/images/am4.webp" alt="" class="card-img">
+            <div class="card-body">
+                <h2 class="card-title">Movie Name</h2>
+                <h6 class="card-des">Lorem ipsum dolor sit emmet.</h6>
+                <button class="watchlist-btn">Add to watchlist</button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="Assets/images/am5.webp" alt="" class="card-img">
+            <div class="card-body">
+                <h2 class="card-title">Movie Name</h2>
+                <h6 class="card-des">Lorem ipsum dolor sit emmet.</h6>
+                <button class="watchlist-btn">Add to watchlist</button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="Assets/images/am6.webp" alt="" class="card-img">
+            <div class="card-body">
+                <h2 class="card-title">Movie Name</h2>
+                <h6 class="card-des">Lorem ipsum dolor sit emmet.</h6>
+                <button class="watchlist-btn">Add to watchlist</button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="Assets/images/am7.webp" alt="" class="card-img">
+            <div class="card-body">
+                <h2 class="card-title">Movie Name</h2>
+                <h6 class="card-des">Lorem ipsum dolor sit emmet.</h6>
+                <button class="watchlist-btn">Add to watchlist</button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="Assets/images/am8.webp" alt="" class="card-img">
+            <div class="card-body">
+                <h2 class="card-title">Movie Name</h2>
+                <h6 class="card-des">Lorem ipsum dolor sit emmet.</h6>
+                <button class="watchlist-btn">Add to watchlist</button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="Assets/images/am9.webp" alt="" class="card-img">
+            <div class="card-body">
+                <h2 class="card-title">Movie Name</h2>
+                <h6 class="card-des">Lorem ipsum dolor sit emmet.</h6>
+                <button class="watchlist-btn">Add to watchlist</button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="Assets/images/am10.webp" alt="" class="card-img">
+            <div class="card-body">
+                <h2 class="card-title">Movie Name</h2>
+                <h6 class="card-des">Lorem ipsum dolor sit emmet.</h6>
+                <button class="watchlist-btn">Add to watchlist</button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="Assets/images/am11.webp" alt="" class="card-img">
+            <div class="card-body">
+                <h2 class="card-title">Movie Name</h2>
+                <h6 class="card-des">Lorem ipsum dolor sit emmet.</h6>
+                <button class="watchlist-btn">Add to watchlist</button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="Assets/images/am12.webp" alt="" class="card-img">
+            <div class="card-body">
+                <h2 class="card-title">Movie Name</h2>
+                <h6 class="card-des">Lorem ipsum dolor sit emmet.</h6>
+                <button class="watchlist-btn">Add to watchlist</button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="Assets/images/am13.webp" alt="" class="card-img">
+            <div class="card-body">
+                <h2 class="card-title">Movie Name</h2>
+                <h6 class="card-des">Lorem ipsum dolor sit emmet.</h6>
+                <button class="watchlist-btn">Add to watchlist</button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="Assets/images/am14.webp" alt="" class="card-img">
+            <div class="card-body">
+                <h2 class="card-title">Movie Name</h2>
+                <h6 class="card-des">Lorem ipsum dolor sit emmet.</h6>
+                <button class="watchlist-btn">Add to watchlist</button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="Assets/images/am15.webp" alt="" class="card-img">
+            <div class="card-body">
+                <h2 class="card-title">Movie Name</h2>
+                <h6 class="card-des">Lorem ipsum dolor sit emmet.</h6>
+                <button class="watchlist-btn">Add to watchlist</button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="Assets/images/am16.webp" alt="" class="card-img">
+            <div class="card-body">
+                <h2 class="card-title">Movie Name</h2>
+                <h6 class="card-des">Lorem ipsum dolor sit emmet.</h6>
+                <button class="watchlist-btn">Add to watchlist</button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="Assets/images/am17.webp" alt="" class="card-img">
+            <div class="card-body">
+                <h2 class="card-title">Movie Name</h2>
+                <h6 class="card-des">Lorem ipsum dolor sit emmet.</h6>
+                <button class="watchlist-btn">Add to watchlist</button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="Assets/images/am18.webp" alt="" class="card-img">
+            <div class="card-body">
+                <h2 class="card-title">Movie Name</h2>
+                <h6 class="card-des">Lorem ipsum dolor sit emmet.</h6>
+                <button class="watchlist-btn">Add to watchlist</button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="Assets/images/am19.webp" alt="" class="card-img">
+            <div class="card-body">
+                <h2 class="card-title">Movie Name</h2>
+                <h6 class="card-des">Lorem ipsum dolor sit emmet.</h6>
+                <button class="watchlist-btn">Add to watchlist</button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="Assets/images/am21.webp" alt="" class="card-img">
+            <div class="card-body">
+                <h2 class="card-title">Movie Name</h2>
+                <h6 class="card-des">Lorem ipsum dolor sit emmet.</h6>
+                <button class="watchlist-btn">Add to watchlist</button>
+            </div>
+        </div>
+    </section>
+</div>
+</section>
+<!--Most Watched Movies of 2023-->
+<section class="main-container">
+    <h1 class="title">exclusive indian movies</h1>
+    <div class="movies-list">
+        <button class="pre-btn" title="Previous">
+            <img src="Assets/images/pre.png" alt="Previous">
+        </button>
+        <button class="nxt-btn" title="Next">
+            <img src="Assets/images/nxt.png" alt="Next">
+        </button>
+        <section class="card-container">
+            <div class="card">
+            <img src="Assets/images/em1.webp" alt="" class="card-img">
+                <div class="card-body">
+                <h2 class="card-title">Movie Name</h2>
+                <h6 class="card-des">Lorem ipsum dolor sit emmet.</h6>
+                <button class="watchlist-btn">Add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="Assets/images/lr3.webp" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="card-title">Movie Name</h2>
+                    <h6 class="card-des">Lorem ipsum dolor sit emmet.</h6>
+                    <button class="watchlist-btn">Add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="Assets/images/lr4.webp" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="card-title">Movie Name</h2>
+                    <h6 class="card-des">Lorem ipsum dolor sit emmet.</h6>
+                    <button class="watchlist-btn">Add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="Assets/images/lr7.webp" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="card-title">Movie Name</h2>
+                    <h6 class="card-des">Lorem ipsum dolor sit emmet.</h6>
+                    <button class="watchlist-btn">Add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="Assets/images/lr13.webp" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="card-title">Movie Name</h2>
+                    <h6 class="card-des">Lorem ipsum dolor sit emmet.</h6>
+                    <button class="watchlist-btn">Add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="Assets/images/em2.webp" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="card-title">Movie Name</h2>
+                    <h6 class="card-des">Lorem ipsum dolor sit emmet.</h6>
+                    <button class="watchlist-btn">Add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="Assets/images/em3.webp" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="card-title">Movie Name</h2>
+                    <h6 class="card-des">Lorem ipsum dolor sit emmet.</h6>
+                    <button class="watchlist-btn">Add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="Assets/images/lr11.webp" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="card-title">Movie Name</h2>
+                    <h6 class="card-des">Lorem ipsum dolor sit emmet.</h6>
+                    <button class="watchlist-btn">Add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="Assets/images/em5.webp" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="card-title">Movie Name</h2>
+                    <h6 class="card-des">Lorem ipsum dolor sit emmet.</h6>
+                    <button class="watchlist-btn">Add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="Assets/images/em4.webp" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="card-title">Movie Name</h2>
+                    <h6 class="card-des">Lorem ipsum dolor sit emmet.</h6>
+                    <button class="watchlist-btn">Add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="Assets/images/pm17.webp" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="card-title">Movie Name</h2>
+                    <h6 class="card-des">Lorem ipsum dolor sit emmet.</h6>
+                    <button class="watchlist-btn">Add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="Assets/images/pm9.webp" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="card-title">Movie Name</h2>
+                    <h6 class="card-des">Lorem ipsum dolor sit emmet.</h6>
+                    <button class="watchlist-btn">Add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="Assets/images/pm16.webp" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="card-title">Movie Name</h2>
+                    <h6 class="card-des">Lorem ipsum dolor sit emmet.</h6>
+                    <button class="watchlist-btn">Add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="Assets/images/pm14.webp" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="card-title">Movie Name</h2>
+                    <h6 class="card-des">Lorem ipsum dolor sit emmet.</h6>
+                    <button class="watchlist-btn">Add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="Assets/images/pm19.webp" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="card-title">Movie Name</h2>
+                    <h6 class="card-des">Lorem ipsum dolor sit emmet.</h6>
+                    <button class="watchlist-btn">Add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="Assets/images/pm4.webp" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="card-title">Movie Name</h2>
+                    <h6 class="card-des">Lorem ipsum dolor sit emmet.</h6>
+                    <button class="watchlist-btn">Add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="Assets/images/pm11.webp" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="card-title">Movie Name</h2>
+                    <h6 class="card-des">Lorem ipsum dolor sit emmet.</h6>
+                    <button class="watchlist-btn">Add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="Assets/images/am18.webp" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="card-title">Movie Name</h2>
+                    <h6 class="card-des">Lorem ipsum dolor sit emmet.</h6>
+                    <button class="watchlist-btn">Add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="Assets/images/am8.webp" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="card-title">Movie Name</h2>
+                    <h6 class="card-des">Lorem ipsum dolor sit emmet.</h6>
+                    <button class="watchlist-btn">Add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="Assets/images/pm20.webp" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="card-title">Movie Name</h2>
+                    <h6 class="card-des">Lorem ipsum dolor sit emmet.</h6>
+                    <button class="watchlist-btn">Add to watchlist</button>
+                </div>
+            </div>
+        </section>
+    </div>
+    </section>
+<!--Criticaly Acclaimed Movies-->
+<section class="main-container">
+    <h1 class="title">Criticaly acclaimed movies</h1>
+    <div class="movies-list">
+        <button class="pre-btn" title="Previous">
+            <img src="Assets/images/pre.png" alt="Previous">
+        </button>
+        <button class="nxt-btn" title="Next">
+            <img src="Assets/images/nxt.png" alt="Next">
+        </button>
+        <section class="card-container">
+            <div class="card">
+            <img src="Assets/images/cm1.webp" alt="" class="card-img">
+                <div class="card-body">
+                <h2 class="card-title">Movie Name</h2>
+                <h6 class="card-des">Lorem ipsum dolor sit emmet.</h6>
+                <button class="watchlist-btn">Add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="Assets/images/cm2.webp" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="card-title">Movie Name</h2>
+                    <h6 class="card-des">Lorem ipsum dolor sit emmet.</h6>
+                    <button class="watchlist-btn">Add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="Assets/images/cm3.webp" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="card-title">Movie Name</h2>
+                    <h6 class="card-des">Lorem ipsum dolor sit emmet.</h6>
+                    <button class="watchlist-btn">Add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="Assets/images/cm4.webp" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="card-title">Movie Name</h2>
+                    <h6 class="card-des">Lorem ipsum dolor sit emmet.</h6>
+                    <button class="watchlist-btn">Add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="Assets/images/cm5.webp" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="card-title">Movie Name</h2>
+                    <h6 class="card-des">Lorem ipsum dolor sit emmet.</h6>
+                    <button class="watchlist-btn">Add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="Assets/images/cm6.webp" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="card-title">Movie Name</h2>
+                    <h6 class="card-des">Lorem ipsum dolor sit emmet.</h6>
+                    <button class="watchlist-btn">Add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="Assets/images/am2.webp" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="card-title">Movie Name</h2>
+                    <h6 class="card-des">Lorem ipsum dolor sit emmet.</h6>
+                    <button class="watchlist-btn">Add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="Assets/images/cm7.webp" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="card-title">Movie Name</h2>
+                    <h6 class="card-des">Lorem ipsum dolor sit emmet.</h6>
+                    <button class="watchlist-btn">Add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="Assets/images/cm8.webp" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="card-title">Movie Name</h2>
+                    <h6 class="card-des">Lorem ipsum dolor sit emmet.</h6>
+                    <button class="watchlist-btn">Add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="Assets/images/cm9.webp" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="card-title">Movie Name</h2>
+                    <h6 class="card-des">Lorem ipsum dolor sit emmet.</h6>
+                    <button class="watchlist-btn">Add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="Assets/images/cm12.webp" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="card-title">Movie Name</h2>
+                    <h6 class="card-des">Lorem ipsum dolor sit emmet.</h6>
+                    <button class="watchlist-btn">Add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="Assets/images/cm11.webp" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="card-title">Movie Name</h2>
+                    <h6 class="card-des">Lorem ipsum dolor sit emmet.</h6>
+                    <button class="watchlist-btn">Add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="Assets/images/cm10.webp" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="card-title">Movie Name</h2>
+                    <h6 class="card-des">Lorem ipsum dolor sit emmet.</h6>
+                    <button class="watchlist-btn">Add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="Assets/images/cm15.webp" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="card-title">Movie Name</h2>
+                    <h6 class="card-des">Lorem ipsum dolor sit emmet.</h6>
+                    <button class="watchlist-btn">Add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="Assets/images/cm13.webp" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="card-title">Movie Name</h2>
+                    <h6 class="card-des">Lorem ipsum dolor sit emmet.</h6>
+                    <button class="watchlist-btn">Add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="Assets/images/cm16.webp" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="card-title">Movie Name</h2>
+                    <h6 class="card-des">Lorem ipsum dolor sit emmet.</h6>
+                    <button class="watchlist-btn">Add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="Assets/images/cm14.webp" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="card-title">Movie Name</h2>
+                    <h6 class="card-des">Lorem ipsum dolor sit emmet.</h6>
+                    <button class="watchlist-btn">Add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="Assets/images/cm15.webp" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="card-title">Movie Name</h2>
+                    <h6 class="card-des">Lorem ipsum dolor sit emmet.</h6>
+                    <button class="watchlist-btn">Add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="Assets/images/pm17.webp" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="card-title">Movie Name</h2>
+                    <h6 class="card-des">Lorem ipsum dolor sit emmet.</h6>
+                    <button class="watchlist-btn">Add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="Assets/images/poster 11.png" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="card-title">Movie Name</h2>
+                    <h6 class="card-des">Lorem ipsum dolor sit emmet.</h6>
+                    <button class="watchlist-btn">Add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="Assets/images/pm9.webp" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="card-title">Movie Name</h2>
+                    <h6 class="card-des">Lorem ipsum dolor sit emmet.</h6>
+                    <button class="watchlist-btn">Add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="Assets/images/cm17.webp" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="card-title">Movie Name</h2>
+                    <h6 class="card-des">Lorem ipsum dolor sit emmet.</h6>
+                    <button class="watchlist-btn">Add to watchlist</button>
+                </div>
+            </div>
+        </section>
+    </div>
+    </section>
+<!--Watch with Your Family-->
+<section class="main-container">
+    <h1 class="title">Watch With Your Family</h1>
+    <div class="movies-list">
+        <button class="pre-btn" title="Previous">
+            <img src="Assets/images/pre.png" alt="Previous">
+        </button>
+        <button class="nxt-btn" title="Next">
+            <img src="Assets/images/nxt.png" alt="Next">
+        </button>
+        <section class="card-container">
+            <div class="card">
+            <img src="Assets/images/pm17.webp" alt="" class="card-img">
+                <div class="card-body">
+                <h2 class="card-title">Movie Name</h2>
+                <h6 class="card-des">Lorem ipsum dolor sit emmet.</h6>
+                <button class="watchlist-btn">Add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="Assets/images/pm14.webp" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="card-title">Movie Name</h2>
+                    <h6 class="card-des">Lorem ipsum dolor sit emmet.</h6>
+                    <button class="watchlist-btn">Add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="Assets/images/wm2.webp" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="card-title">Movie Name</h2>
+                    <h6 class="card-des">Lorem ipsum dolor sit emmet.</h6>
+                    <button class="watchlist-btn">Add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="Assets/images/am4.webp" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="card-title">Movie Name</h2>
+                    <h6 class="card-des">Lorem ipsum dolor sit emmet.</h6>
+                    <button class="watchlist-btn">Add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="Assets/images/pm9.webp" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="card-title">Movie Name</h2>
+                    <h6 class="card-des">Lorem ipsum dolor sit emmet.</h6>
+                    <button class="watchlist-btn">Add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="Assets/images/wm1.webp" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="card-title">Movie Name</h2>
+                    <h6 class="card-des">Lorem ipsum dolor sit emmet.</h6>
+                    <button class="watchlist-btn">Add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="Assets/images/am7.webp" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="card-title">Movie Name</h2>
+                    <h6 class="card-des">Lorem ipsum dolor sit emmet.</h6>
+                    <button class="watchlist-btn">Add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="Assets/images/wm3.webp" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="card-title">Movie Name</h2>
+                    <h6 class="card-des">Lorem ipsum dolor sit emmet.</h6>
+                    <button class="watchlist-btn">Add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="Assets/images/am9.webp" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="card-title">Movie Name</h2>
+                    <h6 class="card-des">Lorem ipsum dolor sit emmet.</h6>
+                    <button class="watchlist-btn">Add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="Assets/images/pm10.webp" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="card-title">Movie Name</h2>
+                    <h6 class="card-des">Lorem ipsum dolor sit emmet.</h6>
+                    <button class="watchlist-btn">Add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="Assets/images/pm11.webp" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="card-title">Movie Name</h2>
+                    <h6 class="card-des">Lorem ipsum dolor sit emmet.</h6>
+                    <button class="watchlist-btn">Add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="Assets/images/pm4.webp" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="card-title">Movie Name</h2>
+                    <h6 class="card-des">Lorem ipsum dolor sit emmet.</h6>
+                    <button class="watchlist-btn">Add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="Assets/images/am13.webp" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="card-title">Movie Name</h2>
+                    <h6 class="card-des">Lorem ipsum dolor sit emmet.</h6>
+                    <button class="watchlist-btn">Add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="Assets/images/am14.webp" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="card-title">Movie Name</h2>
+                    <h6 class="card-des">Lorem ipsum dolor sit emmet.</h6>
+                    <button class="watchlist-btn">Add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="Assets/images/am15.webp" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="card-title">Movie Name</h2>
+                    <h6 class="card-des">Lorem ipsum dolor sit emmet.</h6>
+                    <button class="watchlist-btn">Add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="Assets/images/am16.webp" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="card-title">Movie Name</h2>
+                    <h6 class="card-des">Lorem ipsum dolor sit emmet.</h6>
+                    <button class="watchlist-btn">Add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="Assets/images/am17.webp" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="card-title">Movie Name</h2>
+                    <h6 class="card-des">Lorem ipsum dolor sit emmet.</h6>
+                    <button class="watchlist-btn">Add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="Assets/images/am18.webp" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="card-title">Movie Name</h2>
+                    <h6 class="card-des">Lorem ipsum dolor sit emmet.</h6>
+                    <button class="watchlist-btn">Add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="Assets/images/lr11.webp" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="card-title">Movie Name</h2>
+                    <h6 class="card-des">Lorem ipsum dolor sit emmet.</h6>
+                    <button class="watchlist-btn">Add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="Assets/images/am20.webp" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="card-title">Movie Name</h2>
+                    <h6 class="card-des">Lorem ipsum dolor sit emmet.</h6>
+                    <button class="watchlist-btn">Add to watchlist</button>
+                </div>
+            </div>
+        </section>
+    </div>
+    </section>
+<!--Popular Movies-->
+<section class="main-container">
+    <h1 class="title">popular movies</h1>
+    <div class="movies-list">
+        <button class="pre-btn" title="Previous">
+            <img src="Assets/images/pre.png" alt="Previous">
+        </button>
+        <button class="nxt-btn" title="Next">
+            <img src="Assets/images/nxt.png" alt="Next">
+        </button>
+        <section class="card-container">
+            <div class="card">
+            <img src="Assets/images/pm1.webp" alt="" class="card-img">
+                <div class="card-body">
+                <h2 class="card-title">Movie Name</h2>
+                <h6 class="card-des">Lorem ipsum dolor sit emmet.</h6>
+                <button class="watchlist-btn">Add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="Assets/images/am11.webp" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="card-title">Movie Name</h2>
+                    <h6 class="card-des">Lorem ipsum dolor sit emmet.</h6>
+                    <button class="watchlist-btn">Add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="Assets/images/am12.webp" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="card-title">Movie Name</h2>
+                    <h6 class="card-des">Lorem ipsum dolor sit emmet.</h6>
+                    <button class="watchlist-btn">Add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="Assets/images/pm4.webp" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="card-title">Movie Name</h2>
+                    <h6 class="card-des">Lorem ipsum dolor sit emmet.</h6>
+                    <button class="watchlist-btn">Add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="Assets/images/pm5.webp" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="card-title">Movie Name</h2>
+                    <h6 class="card-des">Lorem ipsum dolor sit emmet.</h6>
+                    <button class="watchlist-btn">Add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="Assets/images/pm6.webp" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="card-title">Movie Name</h2>
+                    <h6 class="card-des">Lorem ipsum dolor sit emmet.</h6>
+                    <button class="watchlist-btn">Add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="Assets/images/pm7.webp" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="card-title">Movie Name</h2>
+                    <h6 class="card-des">Lorem ipsum dolor sit emmet.</h6>
+                    <button class="watchlist-btn">Add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="Assets/images/pm8.webp" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="card-title">Movie Name</h2>
+                    <h6 class="card-des">Lorem ipsum dolor sit emmet.</h6>
+                    <button class="watchlist-btn">Add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="Assets/images/pm9.webp" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="card-title">Movie Name</h2>
+                    <h6 class="card-des">Lorem ipsum dolor sit emmet.</h6>
+                    <button class="watchlist-btn">Add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="Assets/images/pm10.webp" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="card-title">Movie Name</h2>
+                    <h6 class="card-des">Lorem ipsum dolor sit emmet.</h6>
+                    <button class="watchlist-btn">Add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="Assets/images/pm11.webp" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="card-title">Movie Name</h2>
+                    <h6 class="card-des">Lorem ipsum dolor sit emmet.</h6>
+                    <button class="watchlist-btn">Add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="Assets/images/pm12.webp" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="card-title">Movie Name</h2>
+                    <h6 class="card-des">Lorem ipsum dolor sit emmet.</h6>
+                    <button class="watchlist-btn">Add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="Assets/images/pm13.webp" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="card-title">Movie Name</h2>
+                    <h6 class="card-des">Lorem ipsum dolor sit emmet.</h6>
+                    <button class="watchlist-btn">Add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="Assets/images/pm14.webp" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="card-title">Movie Name</h2>
+                    <h6 class="card-des">Lorem ipsum dolor sit emmet.</h6>
+                    <button class="watchlist-btn">Add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="Assets/images/pm15.webp" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="card-title">Movie Name</h2>
+                    <h6 class="card-des">Lorem ipsum dolor sit emmet.</h6>
+                    <button class="watchlist-btn">Add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="Assets/images/pm16.webp" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="card-title">Movie Name</h2>
+                    <h6 class="card-des">Lorem ipsum dolor sit emmet.</h6>
+                    <button class="watchlist-btn">Add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="Assets/images/pm17.webp" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="card-title">Movie Name</h2>
+                    <h6 class="card-des">Lorem ipsum dolor sit emmet.</h6>
+                    <button class="watchlist-btn">Add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="Assets/images/pm18.webp" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="card-title">Movie Name</h2>
+                    <h6 class="card-des">Lorem ipsum dolor sit emmet.</h6>
+                    <button class="watchlist-btn">Add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="Assets/images/pm19.webp" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="card-title">Movie Name</h2>
+                    <h6 class="card-des">Lorem ipsum dolor sit emmet.</h6>
+                    <button class="watchlist-btn">Add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="Assets/images/pm20.webp" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="card-title">Movie Name</h2>
+                    <h6 class="card-des">Lorem ipsum dolor sit emmet.</h6>
+                    <button class="watchlist-btn">Add to watchlist</button>
+                </div>
+            </div>
+        </section>
+    </div>
+    </section>
+<!--Footer-->
+<footer class="page-footer">
+    <section class="footer-col" id="col-1">
+        <h2>Company</h2>
+        <a href="#" class="footer-link">about us</a><br>
+        <a href="#" class="footer-link">careers</a>
+        <h6 class="copyright">&copy; 2024. All Rights Reserved.</h6>
+        <a href="#" class="rights">terms of use</a>
+        <a href="#" class="rights">privacy policy</a>
+        <a href="#" class="rights">FAQ</a>
+    </section>
+    <section class="footer-col">
+        <h2>View Website in</h2>
+        <h5>&#10003 English</h5>
+    </section>
+    <section class="footer-col">
+        <h2>Need Help?</h2>
+        <a href="#" class="footer-link">visit help center</a><br>
+        <a href="#" class="footer-link">share feedback</a>
+    </section>
+    <section class="footer-col">
+        <h2>Connect with Us</h2>
+        <span class="icon">
+        <i class="fab fa-facebook-f"></i>
+        <i class="fab fa-twitter"></i>
+        </span>
+        <span class="mobile">
+            <img src="Assets/images/google-play-store.png" alt="Play Store" class="badges">
+            <img src="Assets/images/App_Store.png" alt="Apple Store" class="badges" style="padding:2%; box-sizing: border-box;">
+        </span>       
+    </section>
+</footer>
+<script src="index.js"></script>
+</body>
+</html>
